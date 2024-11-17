@@ -1,0 +1,194 @@
+/* styles.css */
+body {
+    margin: 30;
+    font-family: Arial, sans-serif;
+    background-image: url(image/sky.jpg);
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #333; /* Dark background */
+    overflow: hidden; /* Clear floats */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Horizontal layout */
+    justify-content: space-around; /* Even spacing */
+}
+
+.navbar li {
+    float: left; /* Align items to the left */
+}
+
+.navbar a {
+    display: block; /* Make links fill the list item */
+    color: white; /* White text color */
+    text-align: center; /* Center text */
+    padding: 14px 20px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Light grey on hover */
+    color: black; /* Black text on hover */
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url(./image/off.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    
+}
+.cont h1{
+    font-size: 65px;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.hero p{
+  text-align: center;
+  font-family: cursive;
+  size: 35px;
+}
+.about{
+    padding: 25px;
+    display: flex;
+}
+
+.amanabout{
+    padding: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: justify;
+    background-color: white ;
+    
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+}
+.collegeproject{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.social{
+    justify-content: center;
+    padding: 40px;
+
+}    
+.fa-instagram {
+    background: #db40a5;
+    color: white;
+  }
+  .abouthead h3{
+    color: #ccc;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+     font-size: xx-large;
+}
+.prohead h3{
+    color: #ccc;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+     font-size: xx-large;
+}
+.clghead h3{
+    color: #ccc;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+     font-size: xx-large;
+}
+.contacthead h3{
+    color: #ccc;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+     font-size: xx-large;
+}
+
